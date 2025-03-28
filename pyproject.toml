@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyscript_stubs"
+version = "0.0.1"
+authors = [
+  { name="Greger Stolt Nilsen", email="gregersn@gmail.com" },
+]
+description = "Typing stubs for Pyscript"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+Homepage = "https://github.com/gregersn/pyscript-stubs"
+Issues = "https://github.com/gregersn/pyscript-stubs/issues"
